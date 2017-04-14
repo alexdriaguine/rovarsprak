@@ -13,7 +13,7 @@ const transformWord = R.compose(
 const rovarsprak = R.compose(
   R.join(' '), 
   R.map(transformWord),
-  R.filter(w => w),
+  R.filter(R.identity),
   R.split(/\s/)
 )
 
