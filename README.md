@@ -1,0 +1,1 @@
+Just some shenaningans to practice ramda and FP
