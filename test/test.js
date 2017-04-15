@@ -1,5 +1,5 @@
 const test = require('ava')
-const rovarsprak = require('./index')
+const rovarsprak = require('../lib/rovarsprak')
 
 test('rovarsprak', t => {
   const text = 'Hej jag heter Alex!'
